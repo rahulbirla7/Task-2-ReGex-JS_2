@@ -1,0 +1,29 @@
+table{
+    width:600px;
+    margin:0 auto;
+    }
+    legend{
+    color:blue;
+    font-size:24px;
+    font-weight: bold;
+    
+    }
+    table td{
+    padding:6px;
+    font-size:18px;
+    }
+    table th{
+        font-size: 20px;
+    }
+    .one{
+        font-size: 15px;
+        font-weight:normal;
+        width:100px
+
+    }
+    .one:hover{
+        border-color: darkred;
+        background-color:lavender;
+        color:maroon;
+    }
+    

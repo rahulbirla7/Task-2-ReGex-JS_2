@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE>
+            Js ASSIGNMENT 2 
+        </TITLE>
+        <script src='Q2.js'> </script>
+        <link rel="stylesheet" href="styles.css">
+    </HEAD>
+    <BODY>
+        <fieldset>
+            <LEGEND> CALCULATE &nbsp; BILL  &nbsp;AMOUNTS </LEGEND>
+            <FORM name="myForm" autocomplete="off" onsubmit='return calculateAmt();'>
+                <TABLE>
+                    <TR>
+                        <TH>
+                            <LABEL FOR='i_calls'>Enter number of calls:</LABEL>
+                        </TH>
+                        <TD><INPUT TYPE='number'ID='i_calls' value='calls' name='calls'/></TD>
+                    </TR>
+                    <TR>
+                        <TH>
+                            <LABEL FOR='i_sms'>Enter SMS:</LABEL>
+                        </TH>
+                        <TD><INPUT TYPE='number'ID='i_sms' value='sms' name='sms'/></TD>
+                    </TR>
+                    <tr>
+                        <th padding='100px'><br/><input class="one"
+                            type='reset' value='Reset' id='i_reset' name='reset'/> </th>
+                        <td padding='100px'><br/><input class="one"
+                             type='submit' value='Calculate' id='i_submit' name='submit'/> </td>
+                        
+                    </tr>
+
+                </TABLE>
+            </FORM>
+        </fieldset>
+    </BODY>
+</HTML>
